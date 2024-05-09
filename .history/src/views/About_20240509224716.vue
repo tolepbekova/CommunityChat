@@ -11,7 +11,6 @@
       </div>
     </section> -->
     <br><br>
-    
 
     <div class="abcolumn">
       <img src="../assets/logo/finalicon13.svg" alt="">

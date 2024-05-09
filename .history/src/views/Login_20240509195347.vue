@@ -1,6 +1,15 @@
 <template>
     <div>
-       
+        <section id="header">
+            <a href="about.html"><img class="logo" src="../assets/logo/log.png"></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="getstart.html">Chat</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                </ul>
+            </div>
+        </section>
         <br><br><br><br>
 
         <div class="abrow">

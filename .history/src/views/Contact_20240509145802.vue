@@ -2,7 +2,7 @@
     
     <div class="abrow">
     <div class="abcolu">
-      <img src="../assets/logo/finalicon13.svg" alt="">
+      <img src="C:\Users\суопак\Desktop\Community\src\img\finalicon13.png" alt="">
     </div>
     <div class="abcolu">
       <h1>Contact Us</h1>

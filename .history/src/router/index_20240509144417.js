@@ -49,11 +49,6 @@ const router = new VueRouter({
       name: 'change',
       component: () => import('../views/Change.vue')
     },
-    {
-      path: '/auth',
-      name: 'auth',
-      component: () => import('../views/Auth.vue')
-    },
 
   ]
 })

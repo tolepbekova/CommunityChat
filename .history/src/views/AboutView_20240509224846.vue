@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br>
+    
     <br><br>
     <div class="chat-container">
       <div class="chat-box" id="chat-box">

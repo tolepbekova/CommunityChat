@@ -1,11 +1,20 @@
 <template>
     <div>
-       
+        <section id="header">
+            <a href="about.html"><img class="logo" src="../assets/logo/log.png"></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="getstart.html">Chat</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                </ul>
+            </div>
+        </section>
         <br><br><br><br>
 
         <div class="abrow">
             <div class="abcolu">
-                <img src="../assets//logo/finalicon13.png" alt="">
+                <img src="C:\Users\суопак\Desktop\Community\src\img\finalicon13.png" alt="">
             </div>
             <div class="abcolu">
                 <h1>Welcome Back</h1>

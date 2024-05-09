@@ -12,8 +12,8 @@ import './assets/base.css'
         <a href="about.html"><img class="logo" src="../src/assets/logo/log.svg"></a>
         <div>
             <ul id="navbar">
-             <li><router-link to="/getstart">Chat</router-link></li>
-                <li><router-link to="/contact">Contact us</router-link></li>
+             <li><router-link to="/login">Login</router-link></li>
+                <li><router-link to="/login">Login</router-link></li>
                <li><router-link to="/login">Login</router-link></li>
             </ul>
         </div>
@@ -33,7 +33,6 @@ import './assets/base.css'
 }
 #header {
     display: flex;
-    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -58,6 +57,9 @@ import './assets/base.css'
     font-size: 30px;
     color: rgba(33, 33, 83, 1);
     transition: 0.3s ease;
+}
+#navbar li  {
+   
 }
 #navnar li :hover { 
     color: rgb(237, 237, 167);

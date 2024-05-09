@@ -6,7 +6,7 @@
   
       <div class="abrow">
         <div class="abcolumn">
-          <img src="../assets/logo/finalicon13.svg" alt="Final Icon">
+          <img src="@/assets/finalicon13.png" alt="Final Icon">
         </div>
         <div class="abcolumn">
           <h1>Let’s create</h1>
@@ -21,7 +21,7 @@
       </div>
   
       <div class="section">
-        <img src="../assets/logo/logo-white.svg" alt="SDU University" width="100" height="100">
+        <img src="@/assets/logo-white.png" alt="SDU University" width="100" height="100">
         <br><br>
         <span class="elementor-icon-list-text">2024 All rights reserved</span>
       </div>

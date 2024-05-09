@@ -1,45 +1,60 @@
-<template><div>
-    
-    <div class="abrow">
-    <div class="abcolu">
-      <img src="../assets/logo/finalicon13.svg" alt="">
+<template>
+    <div>
+     
+      
+      <br><br><br><br>
+      <section id="hero">
+        <div class="abrow">
+          <div class="abcolu">
+            <img   src="../assets/logo/" alt="">
+          </div>
+  
+          <div class="abcolu">
+            <h1>Create your account</h1>
+            <form id="signin-form" @submit.prevent="signIn" name="myForm" method="post"> 
+              <input type="email" v-model="email" placeholder="SDU email address" required>
+              <br><br>
+              <input type="password" v-model="password" placeholder="Password" required>
+              <br><br>
+              <button class="btn" type="submit">Continue</button>
+            </form>
+            <br><br>
+            <p>Already have an account? <router-link to="log">Login</router-link></p>
+          </div>  
+        </div>
+      </section>
     </div>
-    <div class="abcolu">
-      <h1>Contact Us</h1>
-      <div class="abp">
-        <p>Dear users!</p>
-        <p>Here you can write inquiries on technical issues, reviews and recommend improvements to the Site</p>
-      </div>
-      <div class="inputs">
-        <form id="contactForm">
-          <label for="name">Name</label>
-          <br>
-          <input type="text" name="name" id="name" placeholder="">
-          <br>
-          <label for="mail">Email</label>
-          <br>
-          <input type="email" name="mail" id="mail" placeholder="">
-          <br>
-          <label for="message">Message</label>
-          <br>
-          <input type="text" name="message" id="message">
-          <br><br><br>
-          <button class="btn" @click="sendMessage">Send</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-</template>
-
-<script>
-export default {
-    name: 'HeaderSection' // You can name it as per your requirement
-}
-</script>
-
-<style scoped>
-h1 {
+  </template>
+  
+  <script>
+  import axios from 'axios';
+  export default {
+    data() {
+      return {
+        email: '',
+        password: ''
+      };
+    },
+    methods: {
+      signIn() {
+        axios.post(`https://sschat-production.up.railway.app/accounts/auth/users/`, {
+          email: this.email,
+          password: this.password
+        })
+        .then((response) => {
+          console.log(response.data); 
+          localStorage.setItem('id', response.data.id);
+          this.$router.push('/getstart');
+        })
+        .catch((error) => {
+          console.error('Error:', error);
+        });
+      }
+    }
+  }
+  </script>
+  
+  <style scoped>h1 {
     color: rgba(33, 33, 83, 1) ;
 }
 
@@ -139,4 +154,4 @@ a {
     font-weight: bold;
     
   }
-</style>
+  </style>

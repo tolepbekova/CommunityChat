@@ -1,6 +1,11 @@
 <template>
   <div>
-    <br>
+    <v-app-bar :elevation="1">
+      <template v-slot:prepend>
+      </template>
+      <v-app-bar-title><v-img :width="300" cover
+          src="../assets/logo/log.svg"></v-img></v-app-bar-title>
+    </v-app-bar>
     <br><br>
     <div class="chat-container">
       <div class="chat-box" id="chat-box">

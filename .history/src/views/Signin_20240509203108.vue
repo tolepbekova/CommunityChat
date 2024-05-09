@@ -1,12 +1,21 @@
 <template>
     <div>
-     
+      <section id="header">
+        <a href="about.html"><img class="logo" src="C:\Users\суопак\Desktop\Community\src\img\log.png"></a>
+        <div>
+          <ul id="navbar">
+            <li><a href="getstart.html">Chat</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="login.html">Log in</a></li>
+          </ul>
+        </div>
+      </section>
       
       <br><br><br><br>
       <section id="hero">
         <div class="abrow">
           <div class="abcolu">
-            <img   src="../assets/logo/log.svg" alt="">
+            <img   src="../assets/logo/" alt="">
           </div>
   
           <div class="abcolu">

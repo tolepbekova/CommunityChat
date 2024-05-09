@@ -1,7 +1,5 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import router from './router/index.js'
-import './assets/base.css'
 </script>
 
 <template>
@@ -12,9 +10,9 @@ import './assets/base.css'
         <a href="about.html"><img class="logo" src="../src/assets/logo/log.svg"></a>
         <div>
             <ul id="navbar">
-             <li><router-link to="/getstart">Chat</router-link></li>
-                <li><router-link to="/contact">Contact us</router-link></li>
-               <li><router-link to="/login">Login</router-link></li>
+                <li><a href="getstart.html">Chat</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <li><a href="">Log in</a></li>
             </ul>
         </div>
     </section>
@@ -33,7 +31,6 @@ import './assets/base.css'
 }
 #header {
     display: flex;
-    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -54,12 +51,14 @@ import './assets/base.css'
 #navbar li {
     list-style: none;
     padding: 0 20px;
+}
+#navbar li a {
     text-decoration: none;
     font-size: 30px;
     color: rgba(33, 33, 83, 1);
     transition: 0.3s ease;
 }
-#navnar li :hover { 
+#navnar li a:hover { 
     color: rgb(237, 237, 167);
 }
 .abrow {

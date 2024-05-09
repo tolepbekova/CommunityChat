@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <section id="header">
+    <section id="header">
       <a href="about.html"><img class="logo" src="../assets/logo/log.svg"></a>
       <div class="navbar">
         <ul id="navbar">
@@ -9,12 +9,11 @@
           <li><a href="login.html">Log in</a></li>
         </ul>
       </div>
-    </section> -->
+    </section>
     <br><br>
-    
 
     <div class="abcolumn">
-      <img src="../assets/logo/finalicon13.svg" alt="">
+      <img src="C:\Users\суопак\Desktop\Community\src\img\finalicon13.png" alt="">
 
       <h1>Welcome to <br>Student Support chat</h1>
 

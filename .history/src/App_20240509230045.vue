@@ -12,7 +12,7 @@ import './assets/base.css'
         <a href="about.html"><img class="logo" src="../src/assets/logo/log.svg"></a>
         <div>
             <ul id="navbar">
-             <li><router-link to="/getstart">Chat</router-link></li>
+             <li><router-link to="/login">Login</router-link></li>
                 <li><router-link to="/contact">Contact us</router-link></li>
                <li><router-link to="/login">Login</router-link></li>
             </ul>
@@ -33,7 +33,6 @@ import './assets/base.css'
 }
 #header {
     display: flex;
-    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
