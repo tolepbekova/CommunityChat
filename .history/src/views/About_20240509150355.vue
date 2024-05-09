@@ -13,7 +13,7 @@
     <br><br>
 
     <div class="abcolumn">
-      <img src="../src/assets/logo/finalicon13.svg" alt="">
+      <img src="C:\Users\суопак\Desktop\Community\src\img\finalicon13.png" alt="">
 
       <h1>Welcome to <br>Student Support chat</h1>
 
@@ -22,7 +22,7 @@
       </div>
       <div class="ai">
         <div class="column">
-          <!-- <img src="C:\Users\LENOVO\Downloads\icons\Artificial Intelligence.png" class="icon"> -->
+          <img src="C:\Users\LENOVO\Downloads\icons\Artificial Intelligence.png" class="icon">
         </div>
         <div class="column">
           <h5>AI can be inaccurate</h5>
@@ -30,7 +30,7 @@
       </div>
       <div class="ai1">
         <div class="column">
-          <!-- <img src="C:\Users\LENOVO\Downloads\icons\Secure.png" class="icon"> -->
+          <img src="C:\Users\LENOVO\Downloads\icons\Secure.png" class="icon">
         </div>
         <div class="column">
           <h5>Don’t share sensitive info</h5>

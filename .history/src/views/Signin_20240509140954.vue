@@ -1,7 +1,7 @@
 <template>
     <div>
       <section id="header">
-        <a href="about.html"><img class="logo" src="../src/assets/logo/log.svg"></a>
+        <a href="about.html"><img class="logo" src="C:\Users\суопак\Desktop\Community\src\img\log.png"></a>
         <div>
           <ul id="navbar">
             <li><a href="getstart.html">Chat</a></li>
@@ -15,8 +15,8 @@
       <section id="hero">
         <div class="abrow">
           <div class="abcolu">
-            <img src="../src/assets/logo/finalicon13.g" alt="">
-          </div>sv
+            <img src="C:\Users\суопак\Desktop\Community\src\img\finalicon13.png" alt="">
+          </div>
   
           <div class="abcolu">
             <h1>Create your account</h1>

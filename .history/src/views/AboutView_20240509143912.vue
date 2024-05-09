@@ -4,7 +4,7 @@
       <template v-slot:prepend>
       </template>
       <v-app-bar-title><v-img :width="300" cover
-          src="../src/assets/logo/log.svg"></v-img></v-app-bar-title>
+          src="C:\Users\суопак\Desktop\com\community\src\assets\logo\log.svg"></v-img></v-app-bar-title>
     </v-app-bar>
     <br><br>
     <div class="chat-container">
